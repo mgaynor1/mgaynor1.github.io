@@ -7,8 +7,8 @@ description: "Write an awesome description for your new site here. You can edit 
 # Color settings (hex-codes without the leading hash-tag)
 color:
   link: CBA72B
-  primary: FA4616
-  secondary: FA4616
+  primary: fa4616
+  secondary: fa4616
   secondary-dark: 000
 
 # Footer settings
@@ -19,7 +19,7 @@ social:
   - title: twitter
     url: https://twitter.com/shellygaynor
   - title: google scholar 
-    url: http://scholar.google.com/
+    url: http://scholar.google.com/citations?user=WlPwalgAAAAJ&hl=en
   - title: github
     url: https://github.com/mgaynor1
 
