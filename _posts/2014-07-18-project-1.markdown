@@ -1,6 +1,6 @@
 ---
-title: First Publication
-subtitle: Polyploid Influences on Community Structure
+title: Polyploid Influences on Community Structure
+subtitle: First Publication
 layout: default
 modal-id: 1
 date: 2018-04-30
