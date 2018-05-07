@@ -1,0 +1,16 @@
+---
+title: Biology Student Receives Golden Opportunity
+subtitle: UCF College of Science
+layout: default
+modal-id: 6
+date: 2016-07-18
+img: UCF2016.png
+thumbnail: UCF2016-thumbnail.png
+alt: image-alt
+project-date: July 2016
+source: College of Science
+link: http://sciences.ucf.edu/news/biology-student-receives-golden-opportunity/
+category: College of Science
+description: The UCF Department of Biology is pleased to announce that Shelly Gaynor has been named as the winner of the 2016 Golden Opportunity Scholars Award by.....
+
+---

@@ -1,0 +1,15 @@
+---
+title: Student’s Award-Winning Restoration Research
+subtitle: UCF College of Science
+layout: default
+modal-id: 5
+date: 2017-04-28
+img: UCF2017.png
+thumbnail: UCF2017-thumbnail.png
+alt: image-alt
+project-date: April 2017
+source: College of Science
+link: https://sciences.ucf.edu/news/students-award-winning-restoration-research/
+category: College of Science
+description: Conservation genetics research conducted by Shelly Gaynor, a University of Central Florida biology student, has earned her awards at ....
+---

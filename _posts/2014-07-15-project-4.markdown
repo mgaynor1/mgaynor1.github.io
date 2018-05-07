@@ -1,0 +1,16 @@
+---
+title: Student Researches Roses and Cabbage
+subtitle: UCF College of Science
+layout: default
+modal-id: 4
+date: 2017-10-10
+img: UCF2017-2.png
+thumbnail: UCF2017-2-thumbnail.png
+alt: image-alt
+project-date: October 2017
+source: College of Science
+link: https://sciences.ucf.edu/news/student-researches-roses-cabbage/
+category: College of Science
+description: Senior biology major Shelly Gaynor shares her interest in genetics and evolutionary biology with the ecological community thanks to the National Science Foundation Research...
+
+---

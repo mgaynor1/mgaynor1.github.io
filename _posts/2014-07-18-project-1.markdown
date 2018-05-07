@@ -1,0 +1,16 @@
+---
+title: First Paper!
+subtitle: Phylogenetic Structure of Plant Communities: Are Polyploids Distantly Related to Co-occurring Diploids?
+layout: default
+modal-id: 1
+date: 2018-04-30
+img: Paper2018.png
+thumbnail: Paper2018-thumbnail.png
+alt: image-alt
+project-date: April 2018
+source: Frontier in Ecology and Evolution
+link: https://www.frontiersin.org/articles/10.3389/fevo.2018.00052/full
+category: Publication
+description: Polyploidy is widely acknowledged to have played an important role in the evolution and diversification of vascular plants. However....
+
+---

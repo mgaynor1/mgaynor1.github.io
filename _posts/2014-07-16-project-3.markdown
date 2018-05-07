@@ -1,0 +1,16 @@
+---
+title: College of Sciences Celebrates Scholarships
+subtitle: UCF College of Science
+layout: default
+modal-id: 3
+date: 2017-10-13
+img: UCF2017-3.png
+thumbnail: UCF2017-3-thumbnail.png
+alt: image-alt
+project-date: October 2017
+source: College of Science
+link: https://sciences.ucf.edu/news/college-sciences-celebrates-scholarships-2/
+category: College of Science
+description: On Oct. 12, 2017, the College of Sciences celebrated scholarship recipients and donors at the annual Scholarship Luncheon...
+
+---
