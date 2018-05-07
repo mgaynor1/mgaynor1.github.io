@@ -1,6 +1,6 @@
 ---
-title: First Paper
-subtitle: Phylogenetic Structure of Plant Communities
+title: First Publication
+subtitle: Polyploid Influences on Community Structure
 layout: default
 modal-id: 1
 date: 2018-04-30

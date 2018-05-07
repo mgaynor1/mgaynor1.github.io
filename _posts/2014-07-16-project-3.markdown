@@ -1,5 +1,5 @@
 ---
-title: College of Sciences Celebrates Scholarships
+title: College of Sciences Scholarships
 subtitle: UCF College of Science
 layout: default
 modal-id: 3
