@@ -2,7 +2,7 @@
 title: Michelle L. Gaynor
 email: michellegaynor@knights.ucf.edu
 url: https://mgaynor1.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Current graduate student at the University of Florida. Interested in polyploidy evolution."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -20,6 +20,8 @@ social:
     url: https://twitter.com/shellygaynor
   - title: google scholar 
     url: http://scholar.google.com/citations?user=WlPwalgAAAAJ&hl=en
+  - title: research gate
+    url: https://www.researchgate.net/profile/Michelle_Gaynor2?ev=hdr_xprf&_sg=SF6w0e8JbkH3qCQSvKcNqhItfg8K4480WJQXigcRfnnh2jerD6pB1M2ruOVwhMZXunStmEE00tZtegr02CEFoMOf
   - title: github
     url: https://github.com/mgaynor1
 
