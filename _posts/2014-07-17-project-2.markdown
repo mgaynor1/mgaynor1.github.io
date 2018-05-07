@@ -1,7 +1,6 @@
 ---
-title: Making the Most Out of Summer Off-Campus Research
-subtitle: Blog post with UCF-Office of Undergraduate Research
-layout: default
+title: Summer Off-Campus Research
+subtitle: Blog post with UCF-OUR
 modal-id: 2
 date: 2018-04-25
 img: UCF2018.png
