@@ -1,6 +1,6 @@
 ---
 title: First Paper
-subtitle: Phylogenetic Structure of Plant Communities: Are Polyploids Distantly Related to Co-occurring Diploids?
+subtitle: Phylogenetic Structure of Plant Communities
 layout: default
 modal-id: 1
 date: 2018-04-30
