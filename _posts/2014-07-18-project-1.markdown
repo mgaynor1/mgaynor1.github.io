@@ -11,6 +11,6 @@ project-date: April 2018
 source: Frontier in Ecology and Evolution
 link: https://www.frontiersin.org/articles/10.3389/fevo.2018.00052/full
 category: Publication
-description: Polyploidy is widely acknowledged to have played an important role in the evolution and diversification of vascular plants. However....
+description: Excited to share my first publication. This project began as part of my first REU with Julienne Ng and Robert Laport. This paper is part of a special edition of Frontiers titled Polyploid Population Genetics and Evolution - From Theory to Practice. 
 
 ---
