@@ -1,6 +1,8 @@
 
 I combined features of Grayscale Jekyll theme and the startbootstrap agency theme.
 
+In head.htmls I have included google analytics tag. 
+
 
 Grayscale Jekyll theme
 =========================
