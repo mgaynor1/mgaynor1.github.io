@@ -16,25 +16,24 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active">
-                    </li>
-                    <li class="nav-item">
-        				<a class="nav-link {% if page.layout == "default" %}active{% endif %}" href="{{ site.baseurl }}/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Home</a>
-      				</li>
-      				 <li class="nav-item">
-        				<a class="nav-link {% if page.layout == "pages" %}active{% endif %}" href="{{ site.baseurl }}/{% include about.html %}" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">About</a>
-      				</li>
-      				 <li class="nav-item">
-        				<a class="nav-link {% if page.layout == "pages" %}active{% endif %}" href="{{ site.baseurl }}/{% include research.html %} onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">Research</a>
-      				</li>
-      				 <li class="nav-item">
-        				<a class="nav-link {% if page.layout == "pages" %}active{% endif %}" href="{{ site.baseurl }}includes/publications.html" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">Publications</a>
-      				</li>
-      				 <li class="nav-item">
-        				<a class="nav-link {% if page.layout == "pages" %}active{% endif %}" href="{{ site.baseurl }}includes/news.html" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">News</a>
-      				</li>
-      				<li class="nav-item">
-        				<a class="nav-link {% if page.layout == "pages" %}active{% endif %}" href="{{ site.baseurl }}includes/contact.html" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">Contact</a>
-      				</li>
+                            <li class="nav-item">
+          						<a class="nav-link" href="{{"/" | relative_url }}">Home</a>
+        					</li>
+       						 <li class="nav-item">
+       						    <a class="nav-link" href="{{"/about" | relative_url }}">About</a>
+        					</li>
+       						 <li class="nav-item">
+         					    <a class="nav-link" href="{{"/research" | relative_url }}">Research/a>
+        					</li>
+       						 <li class="nav-item">
+         						 <a class="nav-link" href="{{"/publications" | relative_url }}">Publications</a>
+         					</li>	 
+         					 <li class="nav-item">
+         						 <a class="nav-link" href="{{"/news" | relative_url }}">News</a>
+         					</li>
+         					<li class="nav-item">
+         						 <a class="nav-link" href="{{"/contact" | relative_url }}">Contact</a>
+         					</li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
