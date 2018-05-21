@@ -21,10 +21,10 @@
         				<a class="nav-link {% if page.layout == "default" %}active{% endif %}" href="{{ site.baseurl }}/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Home</a>
       				</li>
       				 <li class="nav-item">
-        				<a class="nav-link {% if page.layout == "pages" %}active{% endif %}" href="{{ site.baseurl }}includes/about.html" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">About</a>
+        				<a class="nav-link {% if page.layout == "pages" %}active{% endif %}" href="{{ site.baseurl }}/{% include about.html %}" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">About</a>
       				</li>
       				 <li class="nav-item">
-        				<a class="nav-link {% if page.layout == "pages" %}active{% endif %}" href="{{ site.baseurl }}includes/research.html" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">Research</a>
+        				<a class="nav-link {% if page.layout == "pages" %}active{% endif %}" href="{{ site.baseurl }}/{% include research.html %} onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">Research</a>
       				</li>
       				 <li class="nav-item">
         				<a class="nav-link {% if page.layout == "pages" %}active{% endif %}" href="{{ site.baseurl }}includes/publications.html" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">Publications</a>
