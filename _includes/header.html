@@ -17,21 +17,24 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active">
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#research">Research</a>
-                    </li>
-		   			 <li>
-                        <a class="page-scroll" href="#publications">Publications</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio_grid">News</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
+                    <li class="nav-item">
+        				<a class="nav-link {% if page.layout == "default" %}active{% endif %}" href="{{ site.baseurl }}/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Home</a>
+      				</li>
+      				 <li class="nav-item">
+        				<a class="nav-link {% if page.layout == "pages" %}active{% endif %}" href="{{ site.baseurl }}/about.html" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">About</a>
+      				</li>
+      				 <li class="nav-item">
+        				<a class="nav-link {% if page.layout == "pages" %}active{% endif %}" href="{{ site.baseurl }}/research.html" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">Research</a>
+      				</li>
+      				 <li class="nav-item">
+        				<a class="nav-link {% if page.layout == "pages" %}active{% endif %}" href="{{ site.baseurl }}/publications.html" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">Publications</a>
+      				</li>
+      				 <li class="nav-item">
+        				<a class="nav-link {% if page.layout == "pages" %}active{% endif %}" href="{{ site.baseurl }}/news.html" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">News</a>
+      				</li>
+      				<li class="nav-item">
+        				<a class="nav-link {% if page.layout == "pages" %}active{% endif %}" href="{{ site.baseurl }}/contact.html" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">Contact</a>
+      				</li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
