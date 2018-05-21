@@ -17,16 +17,24 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                   <ul>
-        			{%- for link in site.data.navigation -%}
-      			    {%- if link.url contains '://' -%}
-           				 {%- assign url = link.url -%}
-          					{%- else -%}
-            			 {%- assign url = link.url | relative_url -%}
-          			{%- endif -%}
-          <li><a href="{{ url }}">{{ link.title }}</a></li>
-        		{%- endfor -%}
-      </ul>
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="research.html">Research</a>
+                    </li>
+		   			 <li>
+                        <a class="nav-link" href="http://mgaynor1.github.io/publications.html">Publications</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="http://mgaynor1.github.io/portfolio.html">News</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="http://mgaynor1.github.io/contact.html">Contact</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
