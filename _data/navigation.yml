@@ -5,16 +5,16 @@ docs:
   url: head.html
 
 - title: About
-  url: about.html
+  url: {% include about.html %}
 
 - title: Research
-  url: research.html
+  url: {% include research.html %}
   
 - title: Publications
-  url: publications.html
+  url: {% include publications.html %}
   
 - title: News
-  url: portfolio.html
+  url: {% include portfolio_grid.html %}
   
 - title: Contact
-  url: contact.html
+  url: {% include contact.html %}
