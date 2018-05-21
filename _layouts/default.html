@@ -1,20 +1,17 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
   {% include head.html %}
 
-
-    <body id="page-top" class="index">
-
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {% if page.entries_layout == 'grid' %}page--wide{% endif %} {{ page.title | slugify }}">
     {% include header.html %}
-    {% include about.html %}
-    {% include research.html %}
-    {% include publications.html %}
-    {% include portfolio_grid.html %}
-    {% include contact.html %}
+ 
+
+    {{ content }}
+
+    
     {% include footer.html %}
     {% include modals.html %}
     {% include js.html %}
+  </body>
 
-    </body>
 </html>
