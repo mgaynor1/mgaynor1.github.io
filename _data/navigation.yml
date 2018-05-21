@@ -1,0 +1,20 @@
+docs_list_title: Website Navigation
+docs:
+
+- title: Home
+  url: head.html
+
+- title: About
+  url: about.html
+
+- title: Research
+  url: research.html
+  
+- title: Publications
+  url: publications.html
+  
+- title: News
+  url: portfolio.html
+  
+- title: Contact
+  url: contact.html
