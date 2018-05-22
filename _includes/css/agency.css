@@ -867,20 +867,23 @@ accepted
 Just try with this snippet , i have changed background-image to background and remove the background color of the header
 
 
-header.masthead {
-  padding-top: 100px;
-  padding-bottom: 50px;
-  text-align: center;
-  color: white; 
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
 }
 
-#banner {
- padding-top: 100px;
-  padding-bottom: 50px;
-  background-size: cover; 
-  width: 100%;
-  height: 100%; }
-
-img {
-    margin-top: 100px;
+body, html {
+    height:100%;
 }
+
+masthead {
+    Width:100%;
+    height:40px;
+}
+
+main {
+    height:100%;
+    width:100%;
+    margin-top:-40px;
+}    
