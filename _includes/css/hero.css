@@ -6,11 +6,10 @@ body, html {
 }
 
 .about-image {
-  background-image: url('{{ site.baseurl }}/img/bg-about.jpg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   position: relative;
   margin-top: 75px
 }
