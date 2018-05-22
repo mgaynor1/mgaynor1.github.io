@@ -865,18 +865,3 @@ body {
 down vote
 accepted
 Just try with this snippet , i have changed background-image to background and remove the background color of the header
-
-
-#main {
-padding-top: 75px;
-}
-
-header#masthead .hgroup {
-padding-bottom: 0px !important;
-padding-top: 75px; 
-max-height: 200px !important;
-}
-
-.main-navigation {
-margin-top: 0px;
-}
