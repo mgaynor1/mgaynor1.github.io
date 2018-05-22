@@ -4,9 +4,9 @@ layout: default_2
 
 <!-- Page Header -->
 {% if page.background %}
-<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+<div class="section">
 {% else %}
-<header class="masthead">
+<header class="h2.section-heading" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
 {% endif %}
   <div class="overlay"></div>
   <div class="container">
