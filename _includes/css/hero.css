@@ -8,8 +8,8 @@ body, html {
     margin: 0;
 }
 
-.hero-image {
-  background-image: url("/img/bg.about.jpg");
+.about-image {
+  background-image: url('{{ site.baseurl }}/img/bg-about.jpg');
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -17,7 +17,7 @@ body, html {
   position: relative;
 }
 
-.hero-text {
+.about-text {
   text-align: center;
   position: absolute;
   top: 50%;
@@ -26,7 +26,7 @@ body, html {
   color: white;
 }
 
-.hero-text button {
+.about-text button {
   border: none;
   outline: 0;
   display: inline-block;
@@ -37,7 +37,7 @@ body, html {
   cursor: pointer;
 }
 
-.hero-text button:hover {
+.about-text button:hover {
   background-color: #555;
   color: white;
 }
@@ -45,8 +45,8 @@ body, html {
 </head>
 <body>
 
-<div class="hero-image">
-  <div class="hero-text">
+<div class="about-image">
+  <div class="about-text">
     <h1 style="font-size:50px">About</h1>
   </div>
 </div>
