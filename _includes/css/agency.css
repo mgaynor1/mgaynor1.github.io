@@ -275,7 +275,7 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -321,11 +321,11 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 section h2.section-heading {
-    margin-top: 75px;
+    margin-top: 50px;
     margin-bottom: 15px;
     font-size: 40px;
 }
