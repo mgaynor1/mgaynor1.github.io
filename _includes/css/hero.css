@@ -11,11 +11,12 @@ body, html {
 
 .about-image {
   background-image: url('{{ site.baseurl }}/img/bg-about.jpg');
-  height: 50%;
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  margin-top: 75px
 }
 
 .about-text {
@@ -25,6 +26,7 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  margin-top: 75px
 }
 
 .about-text button {
@@ -36,11 +38,13 @@ body, html {
   background-color: #ddd;
   text-align: center;
   cursor: pointer;
+  margin-top: 75px
 }
 
 .about-text button:hover {
   background-color: #555;
   color: white;
+  margin-top: 75px
 }
 </style>
 </head>
