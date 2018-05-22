@@ -10,7 +10,7 @@ body, html {
 }
 
 .about-image {
-  background-image: url('{{ site.baseurl }}/img/bg-about.jpg');
+  background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
