@@ -3,29 +3,23 @@ layout: default_2
 ---
 
 <!-- Page Header -->
+<section>
 {% if page.background %}
-<div class="section" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
-{% else %}
-<header class="h2.section-heading" >
-{% endif %}
-  <div class="overlay"></div>
-  <div class="container">
-        <div class="page-heading">
-          <h1>{{ page.title }}</h1>
-          {% if page.description %}
-            <span class="subheading">{{ page.description }}</span>
-          {% endif %}
-        </div>
-      </div>
+	<div class="container" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+		{% else %}
+			<div class="row">
+				 <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{{ page.title }}</h2>
+          			{% endif %}
+        		</div>
+     		 </div>
     </div>
-  </div>
-</header>
+</section>
+
 
 <div class="container">
   
 
       {{ content }}
 
-    </div>
-  </div>
 </div>
