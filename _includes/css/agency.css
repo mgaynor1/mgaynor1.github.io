@@ -875,7 +875,12 @@ header.masthead {
 }
 
 #banner {
-  background: url("https://www.w3schools.com/css/trolltunga.jpg") center center no-repeat; 
+ padding-top: 100px;
+  padding-bottom: 50px;
   background-size: cover; 
   width: 100%;
   height: 100%; }
+
+img {
+    margin-top: 100px;
+}
