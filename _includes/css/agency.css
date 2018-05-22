@@ -868,11 +868,14 @@ Just try with this snippet , i have changed background-image to background and r
 
 .about-image {
   height: 100%;
+  background-attachment: scroll;
   background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
+  background-position: center center;
+  background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+  background-size: cover;
+    -o-background-size: cover;
   margin-top: 75px
 }
 
