@@ -868,7 +868,8 @@ Just try with this snippet , i have changed background-image to background and r
 
 about {
 .about-image {
-  height: 50%
+  text-align: center;
+    color: #fff;
   background-attachment: scroll;
   background-image: url('{{ site.baseurl }}/img/bg-about.jpg');
   background-position: center center;
