@@ -867,6 +867,7 @@ accepted
 Just try with this snippet , i have changed background-image to background and remove the background color of the header
 
 .about-image {
+  height: 1432px
   background-attachment: scroll;
   background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
   background-position: center center;
