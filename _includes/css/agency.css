@@ -868,9 +868,9 @@ Just try with this snippet , i have changed background-image to background and r
 
 about {
 .about-image {
-  height: 1432px
+  height: 50%
   background-attachment: scroll;
-  background-image: url('/img/bg-about.jpg');
+  background-image: url('{{ site.baseurl }}/img/bg-about.jpg');
   background-position: center center;
   background-repeat: none;
     -webkit-background-size: cover;
