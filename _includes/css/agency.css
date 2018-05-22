@@ -868,6 +868,8 @@ Just try with this snippet , i have changed background-image to background and r
 
 
 header.masthead {
+  padding-top: 100px;
+  padding-bottom: 50px;
   text-align: center;
   color: white; 
 }
