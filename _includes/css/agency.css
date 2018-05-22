@@ -866,6 +866,7 @@ down vote
 accepted
 Just try with this snippet , i have changed background-image to background and remove the background color of the header
 
+about {
 .about-image {
   height: 1432px
   background-attachment: scroll;
@@ -887,4 +888,5 @@ Just try with this snippet , i have changed background-image to background and r
   transform: translate(-50%, -50%);
   color: white;
   margin-top: 75px
+}
 }
