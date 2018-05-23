@@ -14,10 +14,12 @@ permalink: about.html
     -webkit-background-size: cover;
     -moz-background-size: cover;
   background-size: auto;
+  background-attachment: scroll;
   margin-top: 75px;
   margin-bottom: 25px;
   box-sizing: border-box;
 }
+
 div {
 display: block;
 }
@@ -33,15 +35,16 @@ display: block;
   margin-bottom: 75px;
 }
 </style>
-<section id="about_head">
-<div class="container">
-	<img class="about-image" src= "img/bg-about.jpg">
-  		<div class="about-text">
-    		<h1 style="font-size:50px"> About </h1>
-			</div>	
-		</div>	
-</div>		
-</section>
+<!-- Header Section -->
+<header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading" style= "background-image: url('{{ site.baseurl }}/img/about-bg.jpg');"></div>
+				<div class="intro-heading style= "background-image: url('{{ site.baseurl }}/img/header-bg.jpg');"></div>
+            </div>
+        </div>
+    </header>
+	
 
 <!-- About Section -->
     <section id="about">
