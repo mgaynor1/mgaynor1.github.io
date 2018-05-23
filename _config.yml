@@ -9,6 +9,7 @@ color:
   primary: fa4616
   secondary: fa4616
   secondary-dark: 000
+  dark: 000
 
 # Footer settings
 footer: Your Website
