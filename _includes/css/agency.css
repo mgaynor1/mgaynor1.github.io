@@ -299,6 +299,7 @@ header .intro-text .intro-heading {
 @media(min-width:768px) {
     header .intro-text {
         vertical-align: middle;
+        padding-top: 110px;
     }
 
     header .intro-text .intro-lead-in {
