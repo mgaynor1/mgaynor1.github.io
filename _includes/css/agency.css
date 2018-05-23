@@ -23,7 +23,7 @@ p {
 }
 
 p.large {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 a,
@@ -280,11 +280,11 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
+ 	margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 70px;
-    font-style: italic;
-    line-height: 22px;
+    font-size: 75px
+	font-style: italic;
+    line-height: 75px;
 }
 
 header .intro-text .intro-heading {
@@ -293,7 +293,7 @@ header .intro-text .intro-heading {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 60px;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 60px;
 }
 
 @media(min-width:768px) {
