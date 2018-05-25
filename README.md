@@ -1,6 +1,8 @@
 
 I combined features of Grayscale Jekyll theme and the startbootstrap agency theme. I then decided I wanted to convert my one-page website into multiple pages, which I based on startbootstrap-clean-blog-jekyll by BlackrockDigital.
 
+Please excuse my bad practice of using CSS in my HTML documents.
+
 In head.htmls I have included google analytics tag. 
 
 
