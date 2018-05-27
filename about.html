@@ -119,10 +119,13 @@ permalink: about.html
         </div>
   </section>
   <!-- News Section -->
-    <section id="portfolio" class="bg-light-gray">
+    <section id="portfolio" class="bg-light-gray" style="padding: 80px">
         <div class="container-fluid">
+     		<div class="col-lg-12 text-center">
+           		<h2 class="section-heading">News</h2> 
+         	</div>
             <div class="row">
-            </div>
+            	</div>
             <div class="row">
             {% for post in site.posts %}
                 <div class="col-md-4 col-sm-6 portfolio-item" style="max-width: 300px; max-height: 350px;">
@@ -132,9 +135,9 @@ permalink: about.html
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/news/{{ post.thumbnail }}" class="img-responsive" alt="">
+                        <img src="img/news/{{ post.thumbnail }}" class="img-responsive" alt="" style="width: 300px; max-height: 350px;">
                     </a>
-                    <div class="portfolio-caption">
+                    <div class="portfolio-caption" style="width: 100%">
                         <h4>{{ post.title }}</h4>
                         <p class="text-muted">{{ post.subtitle }}</p>
                     </div>
