@@ -34,3 +34,4 @@ permalink: pretty
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-seo-tag
