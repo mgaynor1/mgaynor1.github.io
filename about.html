@@ -128,7 +128,7 @@ permalink: about.html
             	</div>
             <div class="row">
             {% for post in site.posts %}
-                <div class="col-md-4 col-sm-6 portfolio-item" >
+                <div class="col-md-4 col-sm-6 portfolio-item" style="min-width: 250px; max-height: 300px;">
                     <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -137,7 +137,7 @@ permalink: about.html
                         </div>
                         <img src="img/news/{{ post.thumbnail }}" class="img-fluid" alt="" style="width: 100%;">
                     </a>
-                    <div class="portfolio-caption" style="width: 100%;  ">
+                    <div class="portfolio-caption" style="width: 100%;">
                         <h4>{{ post.title }}</h4>
                         <p class="text-muted">{{ post.subtitle }}</p>
                     </div>
