@@ -4,8 +4,8 @@ subtitle: New Paper
 layout: default
 modal-id: 7
 date: 2018-07-14
-img: Paper22018.png
-thumbnail: Paper22018-thumbnail.png
+img: Paper22018.jpeg
+thumbnail: Paper22018-thumbnail.jpeg
 alt: image-alt
 project-date: July 2018
 source: American Journal of Botany
