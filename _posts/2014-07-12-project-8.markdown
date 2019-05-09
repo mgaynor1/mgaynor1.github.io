@@ -1,0 +1,16 @@
+---
+title: Graduate Research Fellowship
+subtitle: NSF-GRFP
+layout: default
+modal-id: 8
+date: 2018-05-01
+img: GaynorShortia.jpg
+thumbnail: GaynorShortia-thumbnail.jpg
+alt: image-alt
+project-date: May 2019
+source: Florida Museum of Natural History
+link: https://www.floridamuseum.ufl.edu/science/2019-nsf-graduate-fellowships/
+category: Award
+description: Florida Museum of Natural History doctoral students have been awarded National Science Foundation Graduate Research Fellowships, a competitive funding opportunity that supports scientists in the early stages of their career..... 
+
+---
