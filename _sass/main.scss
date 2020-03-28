@@ -5,24 +5,6 @@ body {
     clear: both;
 }
 
-.flex-center {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-wrap: none;
+section {
+    padding: 5em 0.5em;
 }
-
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    flex-wrap: wrap;
-    float: none;
-}
-
-.row-center-vertical > div {
-  display: inline-block;
-  vertical-align: middle;
-  float: none;
-}
-
-
