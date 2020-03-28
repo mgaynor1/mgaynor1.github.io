@@ -4,3 +4,25 @@ body {
     margin: 0;
     clear: both;
 }
+
+.flex-center {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: none;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    flex-wrap: wrap;
+    float: none;
+}
+
+.row-center-vertical > div {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+
