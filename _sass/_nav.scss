@@ -1,3 +1,6 @@
-.navbar-default.navbar-shrink {
-    background-color: #222;
+@media(max-width:768px) {
+
+    .navbar-default {
+        background-color: #222;
+    }
 }
