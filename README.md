@@ -5,6 +5,7 @@ Please excuse my bad practice of using CSS in my HTML documents.
 
 In head.htmls I have included google analytics tag. 
 
+Thanks to Sean Reedy, a computer scientist and good friend, for his help on this website!
 
 Grayscale Jekyll theme
 =========================
