@@ -1,0 +1,15 @@
+---
+title: Students return to the field
+subtitle: FLMNH Student Fieldwork
+layout: default
+modal-id: 9
+date: 2021-10-21
+img: GaynorGalax.jpg
+thumbnail: GaynorGalax-thumbnail.jpg
+alt: image-alt
+project-date: October 2021
+source: Florida Museum of Natural History
+link: https://www.floridamuseum.ufl.edu/science/students-return-to-the-field-with-the-aid-of-museum-travel-awards/?fbclid=IwAR0uP_wD6VwGcokq8G2BaIC4eNeNMMYovSIiy2ZiW1qrxjgFRmatlYwxjWk
+category: Award
+description: Every year, the Florida Museum’s Department of Natural History awards funding for University of Florida graduate students to help cover the cost of travel...
+---
