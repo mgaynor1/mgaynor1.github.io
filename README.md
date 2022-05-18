@@ -28,3 +28,5 @@ Startbootstrap clean blog jekyll theme
 =======================================
 
 For more details, look at [Github page](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll)
+
+Updated branch name
