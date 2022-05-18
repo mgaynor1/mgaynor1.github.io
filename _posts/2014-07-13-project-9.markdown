@@ -4,8 +4,8 @@ subtitle: FLMNH Student Fieldwork
 layout: default
 modal-id: 9
 date: 2021-10-21
-img: GaynorGalax.jpg
-thumbnail: GaynorGalax-thumbnail.jpg
+img: GaynorGalax.jpeg
+thumbnail: GaynorGalax-thumbnail.jpeg
 alt: image-alt
 project-date: October 2021
 source: Florida Museum of Natural History
