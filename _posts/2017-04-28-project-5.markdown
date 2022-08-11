@@ -1,0 +1,12 @@
+---
+title: Student’s Award-Winning Restoration Research
+subtitle: UCF College of Science
+layout: default
+modal-id: 5
+date: 2017-04-28
+thumbnail: UCF2017-thumbnail.png
+alt: Headshot of Michelle Gaynor next to her research poster on restoration genetics of smooth cordgrass.
+project-date: April 2017
+link: https://sciences.ucf.edu/news/students-award-winning-restoration-research/
+
+---

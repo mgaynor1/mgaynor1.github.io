@@ -1,0 +1,11 @@
+---
+title: Summer Off-Campus Research Experiences
+subtitle: Blog post with UCF-OUR
+modal-id: 2
+date: 2018-04-25
+thumbnail: UCF2018-thumbnail.png
+alt: Group photo of Arturia Silimon, Adrienne Loft, R. Shawn Abrahams, Michelle Gaynor, Ashley Stinson, and Flor Aguirre-Valdes.
+project-date: April 2018
+link: https://academicsuccess.ucf.edu/our/making-the-most-out-of-summer-off-campus-research-experiences/
+
+---

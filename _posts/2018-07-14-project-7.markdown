@@ -1,0 +1,12 @@
+---
+title: Climatic Niche Comparison among Galax Cytotypes
+subtitle: New Paper
+layout: default
+modal-id: 7
+date: 2018-07-14
+thumbnail: Paper22018-thumbnail.jpeg
+alt: Potted Galax urceolata with shiny green and leathery leaves. 
+project-date: July 2018
+link: https://bsapubs.onlinelibrary.wiley.com/doi/full/10.1002/ajb2.1161
+
+---

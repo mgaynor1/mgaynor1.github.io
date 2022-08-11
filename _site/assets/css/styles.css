@@ -1,0 +1,25 @@
+body { width: 100%; padding: 0; margin: 0; clear: both; }
+
+section { padding: 5em 0.5em; }
+
+@media (max-width: 768px) { .navbar-default { background-color: #222; } }
+
+@media (min-width: 768px) { ul.nav li.dropdown#research-nav-item:hover > ul.dropdown-menu#research-dropdown-menu { display: block; } }
+
+ul.dropdown-menu > li.nav-item > a { color: black; }
+
+ul.dropdown-menu > li.nav-item > a:hover { color: white; }
+
+.masthead { min-height: 50vH; display: flex; justify-content: center; align-items: center; }
+
+.page-heading { vertical-align: middle; }
+
+h1 { font-size: 3em; text-shadow: 2px 2px 3px #555; }
+
+p { text-transform: none; font-size: 19px; line-height: 1.5; color: #000; padding: 0.3em; }
+
+#index p a { color: #fa4616; }
+
+h3 { color: #fa4616; }
+
+/*# sourceMappingURL=styles.css.map */

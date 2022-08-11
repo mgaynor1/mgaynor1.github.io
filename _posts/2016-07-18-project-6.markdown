@@ -1,0 +1,12 @@
+---
+title: Biology Student Receives Golden Opportunity
+subtitle: UCF College of Science
+layout: default
+modal-id: 6
+date: 2016-07-18
+thumbnail: UCF2016-thumbnail.png
+alt: Headshot of Michelle Gaynor. She is smiling and standing in-front of a tree. 
+project-date: July 2016
+link: http://sciences.ucf.edu/news/biology-student-receives-golden-opportunity/
+
+---

@@ -1,0 +1,12 @@
+---
+title: Student Researches Roses and Cabbage
+subtitle: UCF College of Science
+layout: default
+modal-id: 4
+date: 2017-10-10
+thumbnail: UCF2017-2-thumbnail.png
+alt: Headshot of Michelle Gaynor. She is smiling in a greenhouse and is surrounded by flowering Brassica.
+project-date: October 2017
+link: https://sciences.ucf.edu/news/student-researches-roses-cabbage/
+
+---

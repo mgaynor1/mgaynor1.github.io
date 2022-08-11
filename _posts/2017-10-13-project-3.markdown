@@ -1,0 +1,12 @@
+---
+title: College of Sciences Scholarships
+subtitle: UCF College of Science
+layout: default
+modal-id: 3
+date: 2017-10-13
+thumbnail: UCF2017-3-thumbnail.png
+alt: Group of students, donors, and university leaders smiling at the UCF Scholarship lunch.
+project-date: October 2017
+link: https://sciences.ucf.edu/news/college-sciences-celebrates-scholarships-2/
+
+---

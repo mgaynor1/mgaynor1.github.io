@@ -1,0 +1,12 @@
+---
+title: Florida Museum Students Return to the Field
+subtitle: FLMNH Student Fieldwork
+layout: default
+modal-id: 9
+date: 2021-10-21
+thumbnail: GaynorGalax-thumbnail.jpeg
+alt: Michelle Gaynor collecting Galax urceolata surrounded by dense flora.
+project-date: October 2021
+link: https://www.floridamuseum.ufl.edu/science/students-return-to-the-field-with-the-aid-of-museum-travel-awards/?fbclid=IwAR0uP_wD6VwGcokq8G2BaIC4eNeNMMYovSIiy2ZiW1qrxjgFRmatlYwxjWk
+
+---

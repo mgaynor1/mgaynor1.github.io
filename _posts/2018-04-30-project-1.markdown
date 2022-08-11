@@ -1,0 +1,12 @@
+---
+title: Polyploid Influences on Community Structure
+subtitle: First Publication
+layout: default
+modal-id: 1
+date: 2018-04-30
+thumbnail: Paper2018-thumbnail.png
+alt: Group photo of William Weaver, Julienne Ng, Michelle Gaynor, Vivianna Sanchez, and Robert Laport. 
+project-date: April 2018
+link: https://www.frontiersin.org/articles/10.3389/fevo.2018.00052/full
+
+---
