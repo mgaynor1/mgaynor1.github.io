@@ -1,0 +1,11 @@
+---
+title: Ph.D. Students Face Wages that Don’t Cover Living Costs
+subtitle: Nature
+layout: default
+modal-id: 10
+date: 2022-05-23
+thumbnail: NatureStipend.jpg
+alt: Plot showing where US Biology PhD Students are paid a living wage.
+project-date: May 2022
+link: https://doi.org/10.1038/d41586-022-01392-w
+---

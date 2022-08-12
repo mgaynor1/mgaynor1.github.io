@@ -1,0 +1,11 @@
+---
+title: Ph.D. Students Demand Wage Increases
+subtitle: Science
+layout: default
+modal-id: 11
+date: 2022-05-24
+thumbnail: ScienceStipend.jpg
+alt: Hands holding out an empty wallet. 
+project-date: May 2022
+link: https://doi.org/10.1126/science.caredit.add1421
+---
