@@ -1,6 +1,6 @@
 # Site settings
 title: Michelle L. Gaynor
-email: michellegaynor@kufl.edu
+email: michellegaynor@ufl.edu
 url: https://mlgaynor.com
 author: Shelly Gaynor
 
@@ -34,6 +34,4 @@ permalink: pretty
 ##Plugins
 plugins:
   - jekyll-feed
-  - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-twitter-plugin
