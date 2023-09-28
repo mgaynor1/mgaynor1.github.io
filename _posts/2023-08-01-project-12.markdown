@@ -1,0 +1,11 @@
+---
+title: Loose goats seen roaming UF campus
+subtitle: University of Florida
+layout: default
+modal-id: 12
+date: 2022-08-14
+thumbnail: goats.jpg
+alt: Plot showing where US Biology PhD Students are paid a living wage.
+project-date: August 2023
+link: https://www.instagram.com/p/Cv8ZhAWO9Nx
+---
