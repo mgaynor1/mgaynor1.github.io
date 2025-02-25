@@ -1,0 +1,11 @@
+---
+title: The enigma of the Galax genome
+subtitle: In Defense of Plants
+layout: default
+modal-id: 12
+date: 2025-02-16
+thumbnail: podcast.jpeg
+alt: Image of Galax urceolata flowers.
+project-date: February 2025
+link: https://www.indefenseofplants.com/podcast/2025/2/11/d8epksja9a1x34uni9ed1igyycrr50
+---
