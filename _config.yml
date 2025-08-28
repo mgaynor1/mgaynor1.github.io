@@ -25,7 +25,8 @@ social:
     url: https://github.com/mgaynor1
   - title: researchgate
     url: https://www.researchgate.net/profile/Michelle_Gaynor2?ev=hdr_xprf&_sg=SF6w0e8JbkH3qCQSvKcNqhItfg8K4480WJQXigcRfnnh2jerD6pB1M2ruOVwhMZXunStmEE00tZtegr02CEFoMOf
-
+  - title: bluesky
+    url: https://bsky.app/profile/shellygaynor.bsky.social
 
 # Build settings
 markdown: kramdown
