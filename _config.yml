@@ -17,8 +17,6 @@ footer: Your Website
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: https://twitter.com/shellygaynor
   - title: google scholar 
     url: http://scholar.google.com/citations?user=WlPwalgAAAAJ&hl=en
   - title: github
@@ -27,6 +25,9 @@ social:
     url: https://www.researchgate.net/profile/Michelle_Gaynor2?ev=hdr_xprf&_sg=SF6w0e8JbkH3qCQSvKcNqhItfg8K4480WJQXigcRfnnh2jerD6pB1M2ruOVwhMZXunStmEE00tZtegr02CEFoMOf
   - title: bluesky
     url: https://bsky.app/profile/shellygaynor.bsky.social
+  - title: orcid
+    url: https://orcid.org/0000-0002-3912-6079
+    
 
 # Build settings
 markdown: kramdown
