@@ -1,0 +1,11 @@
+---
+title: Probing the Probability of Polyploid Persistence
+subtitle: American Society of Naturalists 
+layout: default
+modal-id: 13
+date: 2025-04-29
+thumbnail: Galax.jpeg
+alt: Image of Galax urceolata.
+project-date: April 2025
+link: https://www.amnat.org/an/newpapers/Apr-2025-Gaynor-et-al.html
+---

@@ -1,6 +1,6 @@
 ---
-title: The enigma of the Galax genome
-subtitle: In Defense of Plants
+title: The Enigma Of The Galax Genome
+subtitle: Podcast Episode, In Defense of Plants
 layout: default
 modal-id: 12
 date: 2025-02-16

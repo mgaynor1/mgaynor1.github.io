@@ -1,0 +1,11 @@
+---
+title: A Plant You’ve Never Heard Of Can Do What Scientists Once Thought Impossible
+subtitle: Florida Museum
+layout: default
+modal-id: 14
+date: 2025-05-13
+thumbnail: Galax2.jpeg
+alt: Image of Shelly collecting Galax urceolata.
+project-date: May 2025
+link: https://www.floridamuseum.ufl.edu/science/a-plant-youve-never-heard-of-can-do-what-scientists-once-thought-impossible/
+---

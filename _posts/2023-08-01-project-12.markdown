@@ -1,5 +1,5 @@
 ---
-title: Loose goats seen roaming UF campus
+title: Loose Goats Seen Roaming UF Campus
 subtitle: University of Florida
 layout: default
 modal-id: 12
