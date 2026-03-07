@@ -1,0 +1,176 @@
+/* ==========================================================================
+  Modified from Jake Berv
+   Software page (/software/)
+   Scoped to .software-page so it won't affect other archive pages
+   ========================================================================== */
+
+.software-page {
+  font-size: 0.9em;
+  line-height: 1.35;
+  color: #fa4616;
+  --software-badge-size: 16.2rem;
+  --software-badge-border: 0px;
+  --software-hex-shape: polygon(50% 0%, 93.301% 25%, 93.301% 75%, 50% 100%, 6.699% 75%, 6.699% 25%);
+}
+
+.software-page .software-card {
+  border: 1px solid #fa4616;
+  border-radius: 14px;
+  padding: 1rem 1.1rem;
+  margin: 1rem 0 1.45rem;
+  background: rgba(255,255,255,.95);
+  box-shadow: 0 8px 20px rgba(0,0,0,.05);
+}
+
+.software-page .software-card__body {
+  min-width: 0;
+}
+
+.software-page .software-card__head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 170px;
+  gap: 0.6rem 1rem;
+  align-items: center;
+  margin-bottom: 0.2rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid transparent
+}
+
+.software-page .software-card__titleblock {
+  min-width: 0;
+  padding-bottom: 0.2rem;
+  line-height: 1;
+
+}
+
+.software-page .software-card__titleblock h2,
+.software-page .software-card__titleblock h3 {
+  margin-top: 0;
+  margin-bottom: 0.2rem;
+  font-size: 2rem;
+  line-height: 1.08;
+}
+
+.software-page .software-card__subtitle {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.14;
+}
+
+.software-page .software-card__media {
+  width: 170px;
+  min-height: var(--software-badge-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.software-page .software-card__badge {
+  display: block;
+  width: var(--software-badge-size);
+  height: var(--software-badge-size);
+  position: relative;
+  line-height: 0;
+  text-decoration: none;
+  transition: opacity 120ms ease;
+}
+
+.software-page .software-card__badge:hover {
+  opacity: 0.92;
+}
+
+.software-page .software-card__badge:focus-visible {
+  outline: 2px solid #1f2937;
+  outline-offset: 4px;
+}
+
+.software-page .software-card__badge::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #4b4f56;
+  -webkit-clip-path: var(--software-hex-shape);
+  clip-path: var(--software-hex-shape);
+}
+
+.software-page .software-card__badge-image {
+  position: absolute;
+  inset: var(--software-badge-border);
+  width: calc(100% - (var(--software-badge-border) * 2));
+  height: calc(100% - (var(--software-badge-border) * 2));
+  object-position: center;
+  object-fit: contain;
+  display: block;
+  -webkit-clip-path: var(--software-hex-shape);
+  clip-path: var(--software-hex-shape);
+  background: transparent;
+  z-index: 1;
+}
+
+.software-page .soft-sep {
+  border: 0;
+  border-top: 1px solid #e5e7eb;
+  margin: 0.75rem 0 0.65rem;
+}
+
+.software-page .software-meta {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 0.65rem;
+}
+
+.software-page .software-meta small {
+  font-size: 1.5em;
+  line-height: 1.4;
+  display: block;
+}
+
+.software-page .software-actions a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.software-page .software-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.5rem;
+}
+
+.software-page .software-actions a:hover {
+  border-bottom-color: currentColor;
+}
+
+.software-page .software-card code {
+  letter-spacing: normal;
+}
+
+@media (max-width: 760px) {
+  .software-page {
+    --software-badge-size: 6.8rem;
+    --software-badge-border: 4px;
+  }
+
+  .software-page .software-card__head {
+    grid-template-columns: 1fr;
+    gap: 0.55rem;
+    padding-bottom: 0.55rem;
+  }
+
+  .software-page .software-card__media {
+    width: min(230px, 72vw);
+    min-height: var(--software-badge-size);
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .software-page .software-card__titleblock h2,
+  .software-page .software-card__titleblock h3 {
+    font-size: 1.7rem;
+    line-height: 1.1;
+  }
+
+  .software-page .software-card__subtitle {
+    font-size: 1.28rem;
+    line-height: 1.2;
+  }
+}
