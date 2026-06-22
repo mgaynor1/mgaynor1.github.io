@@ -16,13 +16,20 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active">
-        					<li class="nav-item">
+        
+        					 <li class="nav-item" id="people-nav-item">
+         					    <a class="nav-link" role="button" aria-haspopup="true" aria-expanded="false" href="{{'/people' | relative_url }}">People
+        	
+       						    </a>
+                            </li>
        					     <!--  <li class="nav-item dropdown" id="research-nav-item">
          					    <a class="nav-link dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" -->
+         					     <li class="nav-item">
          					     <a class="nav-link" href="{{'/research' | relative_url }}">
                                     Research
                                     <!-- > <b class="caret hidden-xs"></b> -->
                                 </a>
+                                </li>
                                 <!--   <ul class="dropdown-menu" id="research-dropdown-menu">
                                     <li class="nav-item nav-item-nested">
                                         <a href="{{'/research/polyploidy' | relative_url }}">Polyploidy</a>
@@ -41,12 +48,6 @@
          					<li class="nav-item">
          						 <a class="nav-link" href="{{'/software' | relative_url }}">Software</a>
          					</li>
-         					 <li class="nav-item" id="people-nav-item">
-         					    <a class="nav-link" role="button" aria-haspopup="true" aria-expanded="false" href="{{'/people' | relative_url }}">People
-        	
-       						    </a>
-        					
-                            </li>
     
          					<li class="nav-item">
          						 <a class="nav-link" href="{{'/contact' | relative_url }}">Contact</a>
