@@ -8,12 +8,18 @@ background: '/img/bg-research.jpeg'
 <!-- Introduction -->
 <section id="research" style="padding-top: 30px; padding-bottom:25px;">
 	<div class = "container">
-		<div class="row">
-			<div class="col-md-12">
+	<div class="row">
+			<div class="col-md-3">
+					  		<div class="image-wrapper float-center pr-3" style="padding-top:30px;"><img  src="{{'/img/research/GEEPlab.png' | relative_url}}" class="img-responsive" alt=""></div>
+
+			</div>
+					
+				
+			<div class="col-md-9" style="padding-top:30px;">
 			<p style="line-height:1;"> Welcome to the <b>G</b>aynor <b>E</b>cology and <b>E</b>volution of <b>P</b>olyploids Lab, or  the <b>"GEEP"</b> lab!  Our research broadly encompasses ecology and evolution of flowering plants, with a specific focus on genome size diversity in the form of whole-genome duplication, or polyploidy. To do this, we connect organismal biology with theoretical biology, often developing genomic and computation methods along the way. For a round up of resources developed in our lab group, check out the <a href="{{"/software" | relative_url }}">software page.</a> </p>
 		    
-<p style="line-height:1;">  This page is currently being updated! </p>
-		</div>
+			<p style="line-height:1;">  This page is currently being updated! </p>
+			</div>
 	</div>
 	</div>
 </section>
@@ -36,20 +42,23 @@ background: '/img/bg-research.jpeg'
 	<div class = "container">
 	<div class = "row">
 	<div class="col-md-8">
-	<h4  style= "color: #000000; text-transform: none; font-weight: 350;"><a style = "color: #fa4616;"><b>Coexistence in Nature and Theory</b> </a> </h4>
+			<h4  style= "color: #000000; text-transform: none; font-weight: 350;"><a style = "color: #fa4616;"><b>Identifying Polyploids</b> </a> </h4>
+
+		<p style="line-height:1;">  Identifying ploidal diversity is a crucial first 
+		 step to understanding the impact of WGD on patterns of biodiversity. To address shortcomings of available ploidal level inference methods based on sequence data, 
+		 I developed the easy-to-use R package  <a href="https://mlgaynor.com/nQuack/" target="_blank">nQuack</a>.
+		  To hear more about this project, check out the second half of my <a href="https://youtu.be/GUGesJWy3HI?feature=shared" target="_blank">2024 Polyploidy Webinar.</a> I am currently developing nQuack-AI, a data based approach to predicting ploidal level based on >10,000 samples from over 70 collaborators. </p>
+		  
+		 <p style="line-height:1;"> Currently, sequence based methods do not replace flow cytometry and chromosome squashes. If you are interested in learning either, please reach out and id be happy to share a google drive full of material to aid in ploidal estimation via flow cytometry (named `FlowHullabaloo`). </p>
+	<h4  style= "color: #000000; text-transform: none; font-weight: 350;"><a style = "color: #fa4616;"><b>Coexistence</b> </a> </h4>
+
 		<p style="line-height:1;">I am fascinated by the coexistence of multiple cytotypes. Historically, it was believed that a tetraploid had to outcompete its diploid progenitor to persist. 
 		The idea was that a tetraploid formed, spread, and caused the diploid to be geographically restricted and rare (Stebbins, 1947, 1971). We now know that closely related 
 		polyploids and their diploid progenitors can both remain extant. </p>
-		<p style="line-height:1;"><a style = "color: #fa4616;"><b>Nature:</b></a> Much of my population-level work has focused 
-			on autopolyploid <a href="https://en.wikipedia.org/wiki/Galax" target="_blank"><i>Galax urceolata</i></a> (Diapensiaceae), which includes diploid, triploid, and tetraploid cytotypes co-occurring throughout the Southern Appalachians. 
-			Along with ongoing population genetic research, we investigated the cytogeography of <i>G. urceolata</i> in relation to stomatal cell size, soil chemistry, soil fungal 
-			and bacterial community composition, and broad-scale climate. To hear more about this work, check out my <a href="https://youtu.be/NmsMFPHudXw?feature=shared&t=844" target="_blank">talk at Evolution 2024.</a></p>
-	
-		<p style="line-height:1;"><a style = "color: #fa4616;"><b>Theory:</b> </a>  To understand stability of coexisting cytotypes, 
-		We designed a new matrix population model with demographic and environmental stochasticity. Here, we identified that stable coexistence is very probable among mixed-cytotypes,
-		 even when reproductive isolation is absent.  See <a href="https://doi.org/10.1086/734411" target="_blank">Gaynor et al. 2025</a> and our R package,
-		  <a href="https://mlgaynor.com/AutoPop/" target="_blank">AutoPop</a>. To find out more about this project, check out my <a href="https://youtu.be/GUGesJWy3HI?feature=shared" target="_blank">2024 Polyploidy Webinar.</a> </p>
-			
+		
+		<p style="line-height:1;">Much of my population-level work has focused 
+			on autopolyploid <a href="https://en.wikipedia.org/wiki/Galax" target="_blank"><i>Galax urceolata</i></a> (Diapensiaceae), which includes diploid, triploid, and tetraploid cytotypes co-occurring throughout the Southern Appalachians. </p>
+		
 	</div>
 	
 		<div class="col-md-3">
@@ -62,18 +71,19 @@ background: '/img/bg-research.jpeg'
 	<div class = "container">
 	<div class = "row">
 	<div class="col-md-12">
-		<h4  style= "color: #000000; text-transform: none; font-weight: 350;"><a style = "color: #fa4616;"><b>Population Genetics and Beyond</b> </a> </h4>
-		<p style="line-height:1;"> The main focus of my research improve the polyploid evolutionary/ecological paradigm regarding the persistence and success of polyploids by considering both evolution and subsequent gene flow within and among species. </p>
-		 <p style="line-height:1;"> <a style = "color: #fa4616;"><b>Identifying Polyploids:</b></a>  Identifying ploidal diversity is a crucial first 
-		 step to understanding the impact of WGD on patterns of biodiversity. To address shortcomings of available ploidal level inference methods based on sequence data, 
-		 I developed the easy-to-use R package  <a href="https://mlgaynor.com/nQuack/" target="_blank">nQuack</a>.
-		  To hear more about this project, check out the second half of my <a href="https://youtu.be/GUGesJWy3HI?feature=shared" target="_blank">2024 Polyploidy Webinar.</a> I am currently developing nQuack-AI, a data based approach to predicting ploidal level based on >10,000 samples from over 70 collaborators. </p>
-		  
-		 <p style="line-height:1;"> Currently, sequence based methods do not replace flow cytometry and chromosome squashes. If you are interested in learning either, please reach out and id be happy to share a google drive full of material to aid in ploidal estimation via flow cytometry (named `FlowHullabaloo`). </p>
-
-		<p style="line-height:1;"> <a style = "color: #fa4616;"><b>Population Genomics:</b></a> The genetic consequences of mixed-cytotype
+	<p style="line-height:1;"><a style = "color: #fa4616;"><b>Ecology:</b></a> 
+			We investigated the cytogeography of <i>G. urceolata</i> in relation to stomatal cell size, soil chemistry, soil fungal 
+			and bacterial community composition, and broad-scale climate. We found that cytotypes of <i>G. urceolata</i> have little to no ecological differences that would enable coexistence. 
+	
+		<p style="line-height:1;">  To understand stability of coexisting cytotypes with ongoing gene flow, 
+		we designed a new matrix population model with demographic and environmental stochasticity. Here, we identified that stable coexistence is very probable among mixed-cytotypes,
+		 even when reproductive isolation is absent.  See <a href="https://doi.org/10.1086/734411" target="_blank">Gaynor et al. 2025</a> and our R package,
+		  <a href="https://mlgaynor.com/AutoPop/" target="_blank">AutoPop</a>. To find out more about this project, check out my <a href="https://youtu.be/GUGesJWy3HI?feature=shared" target="_blank">2024 Polyploidy Webinar.</a> </p>
+			
+			<p style="line-height:1;"> <a style = "color: #fa4616;"><b>Population Genomics:</b></a> The genetic consequences of mixed-cytotype
 		 populations with ongoing gene flow among cytotypes are mostly unknown. 
-		 Tools are currently lacking to understand the evolutionary history of mixed-cytotype populations and a focus of my current research is to develop these tools.  
+		 Tools are currently lacking to understand the evolutionary history of mixed-cytotype populations and a focus of my current research is to develop these tools.  Ongoing biological studies include the population genomics of <i>Galax urceolata</i> and <i>Larrea tridentata</i>.  
+		 To hear more about the current work on <i>Galax urceolata</i>, check out my <a href="https://youtu.be/NmsMFPHudXw?feature=shared&t=844" target="_blank">talk at Evolution 2024.</a></p>
 
 		<p style="line-height:1;"> <a style = "color: #fa4616;"><b>Phylogenetics:</b></a> To understand the long-term consequences of WGD on ecological and community dynamics, 
 		    		phylogenetic-scale analyses are necessary. Along with microevolutionary processes, I am interested in large-scale trends regarding whole-genome duplication.</p>
