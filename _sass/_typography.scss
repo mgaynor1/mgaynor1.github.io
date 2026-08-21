@@ -27,3 +27,52 @@
 .join-options summary:hover {
   color: #FFD700;
 }
+
+/* Mobile layout */
+@media (max-width: 768px) {
+
+  .join {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .join-intro > p:not(.section-kicker):not(.email-note) {
+    max-width: 100%;
+    margin: 1.2rem 0 1.5rem;
+  }
+
+  .join-options {
+    width: 100%;
+  }
+
+  .join-options summary {
+    padding: 1.2rem 0;
+    font-size: 1.35rem;
+  }
+
+  .join-options summary span:last-child {
+    font-size: 2.25rem;
+    flex-shrink: 0;
+  }
+
+  .join-options details p {
+    margin: 0 0 1.4rem;
+    max-width: 100%;
+  }
+
+  .research-grid {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .research-card {
+    min-height: 320px;
+    padding: 2rem 1.25rem;
+  }
+
+  .research-card h3 {
+    font-size: clamp(2rem, 9vw, 3rem);
+  }
+}
