@@ -14,7 +14,7 @@ body {
 }
 
 .text-primary {
-    color: #{{ site.color.primary }};
+    color: #000000;
 }
 
 p {
@@ -32,6 +32,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
+    color: #{{ site.color.tertiary }};
 }
 
 a {
@@ -42,18 +43,36 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #{{ site.color.secondary }};
+    color: #{{ site.color.tertiary }};
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1{
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+ 
+}
+h2{
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #{{ site.color.primary }};
+ 
+}
+h3{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #{{ site.color.primary }};
+ 
+}
+
+h4,
+h5,
+h6 {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #{{ site.color.primary }};
+ 
 }
 
 .img-centered {
@@ -183,7 +202,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.color.secondary }};
+    color: #{{ site.color.tertiary }};
 }
 
 .navbar-default .navbar-collapse {
@@ -191,8 +210,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #{{ site.color.primary }};
-    background-color: #{{ site.color.primary }};
+    border-color: #{{ site.color.tertiary }};
+    background-color: #{{ site.color.tertiary }};
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -201,7 +220,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #{{ site.color.primary }};
+    background-color: #{{ site.color.tertiary }};
 }
 
 .navbar-default .nav li a {
@@ -216,19 +235,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.tertiary }};
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    background-color: #{{ site.color.tertiary }};
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #{{ site.color.secondary }};
+    background-color: #{{ site.color.tertiary }};
 }
 
 @media(min-width:768px) {

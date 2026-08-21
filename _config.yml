@@ -6,9 +6,10 @@ author: Shelly Gaynor
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  link: 0021a5
-  primary: fa4616
-  secondary: fa4616
+  link: CEB888 
+  primary: 782F40 
+  secondary: CEB888 
+  tertiary: FFD700
   secondary-dark: 000
   dark: 000
 
